@@ -1,0 +1,365 @@
+//META{"name":"FrostedPickles","description":"A Rewrite of FrostedGlass","author":"Lordpickleboy","version":"1.1"}*//
+:root {
+    --image: url(https://i.imgur.com/KW8Plch.png);
+}
+.theme-dark .wrapper-1Rf91z {
+    background-color: #20222500;
+}
+.theme-dark .wrapper-29NfPK {
+    background-color: rgba(32, 34, 37, 0);
+}
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+    background: rgba(54, 57, 63, 0);
+    background-image: var(--image) !important;
+    background-size: cover !important;
+    background-position: center;
+    box-shadow: inset 0 0 2000px 2000px rgba(0, 0,0, 0.3) !important;
+    background-attachment: fixed;
+}
+.channels-Ie2l6A {
+    -ms-flex-negative: 0;
+    background-color: rgba(47, 49, 54, 0);
+    flex-shrink: 0;
+    width: 240px;
+}
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3 {
+    background-color: rgba(54, 57, 63, 0);
+}
+.theme-dark .messagesWrapper-3lZDfY {
+    background-color: rgba(54, 57, 63, 0);
+}
+.theme-dark .title-3qD0b- {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: rgba(54, 57, 63, 0);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+.container-PNkimc {
+    background-color: rgba(47, 49, 54, 0);
+    contain: layout;
+    position: relative;
+}
+.theme-dark .members-1998pB {
+    background-color: rgba(47, 49, 54, 0);
+}
+.theme-dark .typing-2GQL18 {
+    background-color: transparent;
+}
+.container-2lgZY8 {
+    background-color: rgba(32, 34, 37, 0);
+}
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: rgba(32, 34, 37, 0);
+}
+.theme-dark .standardSidebarView-3F1I7i {
+    background: rgba(54, 57, 63, 0);
+}
+.theme-dark .sidebarRegion-VFTUkN {
+    background: rgba(47, 49, 54, 0);
+}
+.theme-dark .contentRegion-3nDuYy {
+    background: rgba(54, 57, 63, 0);
+}
+.searchBar-6Kv8R2 {
+    -ms-flex: 0 0 auto;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -webkit-box-flex: 0;
+    /* -webkit-box-shadow: 0 1px 0 rgba(32,34,37,.7), 0 2px 0 rgba(0,0,0,.06); */
+    align-items: center;
+    /* box-shadow: 0 1px 0 rgba(32,34,37,.7), 0 2px 0 rgba(0,0,0,.06); */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex: 0 0 auto;
+    height: 48px;
+    padding: 0 12px;
+}
+element.style { /*Make the color the same as the one below this*/
+    border-bottom-color: rgba(32,34,37,.3);
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+}
+.scrollerWrap-2lJEkd { /*Right side friend group color*/
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex: 1;
+    height: 100%;
+    position: relative;
+    border-right-width: medium;
+    border-right-style: solid;
+    border-right-color: rgba(32,34,37,.3); /*Change This*/
+	border-left-color: rgba(32,34,37,.3); /*Change This To The Same*/
+	border-left-width: thick;
+	border-left-style: solid;
+}
+/*----------------ACTIVITY-----------------------*/
+.activityFeed-28jde9 {
+    -ms-flex: 1 1 auto;
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    background-color: transparent !important;
+    -webkit-box-flex: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    overflow: hidden;
+}
+.directionColumn-35P_nr {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    background-color: transparent !important;
+}
+.theme-dark .headerBar-UHpsPw {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: rgba(54, 57, 63, 0);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+	text-align: center;
+}
+.theme-dark .card-7JP0BX {
+    background-color: transparent;
+    color: #f6f6f7;
+}
+.theme-dark .header-1RC2Wb {
+    background-color: rgba(47, 49, 54, 0.7) !important;
+}
+/*----------------LIBRARY---------------------*/
+.theme-dark .gameLibrary-TTDw4Y {
+    background-color: rgba(54, 57, 63, 0);
+}
+.carouselItem-3UIHqv {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    opacity: 0.4 !important;
+}
+.theme-dark .header-39GIC8 {
+    background-color: rgba(54, 57, 63, 0);
+    border-bottom-color: hsla(0,0%,100%,.1);
+    color: hsla(0,0%,100%,.3);
+}
+/*--------------------STORE-----------------------*/
+.theme-dark .applicationStore-1pNvnv {
+    background-color: rgba(54, 57, 63, 0);
+}
+.tile-367QuY, .tileWrapper-2khh-w {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    background-color: transparent !important;
+}
+.channel-2QD9_O.selected-1HYmZZ a {
+    background-color: rgba(20, 255, 57, 0.15);
+}
+.learnMoreButton-1arz8K {
+    -ms-flex-negative: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-weight: 600;
+    height: 32px;
+    margin: 8px 0 4px;
+    min-height: 32px;
+    width: 96px;
+    min-width: 120px !important;
+}
+/*---------------------FRIENDS--------------------*/
+.theme-dark .container-3gCOGc {
+    background-color: #36393f00;
+}
+/*---------------------SETTINGS-------------------*/
+.theme-dark .standardSidebarView-3F1I7i {
+    background: rgba(54, 57, 63, 0);
+}
+/*--------------------PROFILE---------------------*/
+.topSectionPlaying-1J5E4n {
+    background: #8af5ac45;
+}
+.theme-dark .body-3ND3kc {
+    background-color: #60ad7852;
+}
+/*-----------------Upload--Box--------------------*/
+.uploadModal-2ifh8j {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-filter: blur(0);
+    -webkit-perspective: 1000;
+    background-color: rgba(88, 108, 179, 0.2);
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    filter: blur(0);
+    flex-direction: column;
+    min-height: 258px;
+    perspective: 1000;
+    width: 520px;
+}
+.uploadModal-2ifh8j .inner-3nWsbo {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    border: 2px dashed rgba(170, 184, 232, 0.2);
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    flex: 1;
+    margin: 10px;
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+    -ms-flex-direction: row;
+    -ms-flex-pack: end;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: end;
+    background-color: rgba(91, 109, 174, 0.2);
+    border-radius: 0 0 10px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.theme-brand .inner-zqa7da {
+    background-color: rgba(144, 225, 142, 0.2);
+}
+.sizeMedium-1AC_Sl {
+    height: 38px;
+    min-height: 38px;
+    min-width: 500px;
+    width: 96px;
+    background-color: rgba(144, 225, 142, 0.2) !important;
+}
+.lookLink-9FtZy-.colorWhite-rEQuAQ {
+    color: #f00;
+    font-weight: 600;
+    background-color: rgba(144, 225, 142, 0.2);
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    background-color: #fff;
+    color: #46e43d;
+}
+/*----------------------------NAME-HEADER---------------------------------------------*/
+.username-_4ZSMR {
+    cursor: pointer;
+    font-size: 1.6rem;
+    letter-spacing: 0;
+	font-family: Freestyle Script !important;
+}
+/*Change the "Freestyle Script" to any font you want or download it here https://fontzone.net/font-details/freestyle-script */
+/*----------------------------CHAT-COLORS---------------------------------------------*/
+.nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F, .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
+    color: rgba(16, 248, 35, 0.59) !important;
+/*1*/
+}
+.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
+    color: rgba(155, 255, 116, 1) !important;
+/*2*/
+}
+.theme-dark .membersGroup-v9BXpm {
+    color: rgba(155, 255, 116, 1) !important;
+/*2*/
+}
+.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {
+    color: rgba(63, 242, 99, 0.73) !important;
+/*3*/
+}
+.nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ {
+    color: rgba(63, 242, 99, 0.44) !important;
+/*4*/
+}
+.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
+    color: rgba(63, 242, 99, 0.73) !important;
+/*5*/
+}
+.accountDetails-3k9g4n .username {
+    display: block;
+    max-width: 84px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	font-family: Freestyle Script !important;
+	color: rgba(155, 255, 116, 1) !important;
+	font-size: 1.3rem;
+/*6*/
+}
+.accountDetails-3k9g4n .discriminator {
+    display: block;
+    font-size: 10px;
+    margin-top: 4px;
+    opacity: .4;
+	font-size: 0.8rem;
+	letter-spacing: 0.2rem;
+	font-family: Autumn !important;
+	color: rgba(155, 255, 116, 1) !important;
+/*7*/
+}
+.theme-dark .markup-2BOw-j {
+    color: #3fb7ff;
+/*8*/
+}
+.theme-dark .textArea-2Spzkt {
+    color: #3fb7ff;
+/*8*/
+}
+.theme-dark .username-_4ZSMR {
+    color: rgba(155, 255, 116, 1);
+/*9*/
+}
+.private-channels .channel .channel-name {
+    -ms-flex-positive: 1;
+    -webkit-box-flex: 1;
+    color: rgba(155, 255, 116, 1);
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    opacity: .3;
+    overflow: hidden;
+    padding-right: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+/*10*/
+}
+.theme-dark .channelName-3stJzi, .theme-dark .groupDM-3qU0Ks .channelName-3stJzi, .theme-dark .groupDMManaged-1GyXtq .channelName-3stJzi, .theme-dark .input-autosize-input, .theme-dark .input-autosize-input:focus {
+    color: #0490B3;
+/*11*/
+}
+.theme-dark .guild-1EfMGQ.audio-3vVhBi:after, .theme-dark .guild-1EfMGQ.video-15yGu3:after {
+    background-color: #28508a;
+/*12*/
+}
+/*
+1 = Unknown
+2 = Chat Tab headers
+3 = Non Muted Text Channels
+4 = Muted Text Channels
+5 = Unread Text Channels
+6 = Bottom Left Username
+7 = Bottom Left 4 Digits
+8 = Text Chat Color
+9 = DM Chat Username Color
+10 = DM Panel Usernames
+11 = DM Channel Name
+12 = Color of Voice Speaker Background
+*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+}
