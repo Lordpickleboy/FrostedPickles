@@ -257,6 +257,22 @@ element.style { /*Make the color the same as the one below this*/
     background-color: #fff;
     color: #46e43d;
 }
+.uploadModal-2ifh8j .footer-3mqk7D, .uploadModal-2ifh8j .hasSpoilers-1IRtQC {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-block;
+}
+/*----------------------------Incoming-Call-------------------------------------------*/
+.theme-dark .incomingCallInner-2VmFiR {
+    background: #2a3d5a8f;
+    border-color: #2e4792;
+}
+.incomingCall-14zLcL {
+    pointer-events: all;
+    position: fixed;
+    width: 540px;
+    z-index: 2001;
+}
 /*----------------------------NAME-HEADER---------------------------------------------*/
 .username-_4ZSMR {
     cursor: pointer;
